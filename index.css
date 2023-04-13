@@ -1,0 +1,526 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#main-section{
+    height: 100%;
+    width: 100%;
+}
+
+#main-section .container{
+    width: 1500px;
+    margin: auto;
+    /* background-color: aqua; */
+}
+
+.head{
+    height: 30px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.header-list{
+    position: relative;
+    top: 5px;
+    height: 20px;
+    width: 100%;
+    /* background-color: white; */
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.list li{
+    padding-left: 10px;
+    margin-left: 10px;
+    border-left: 1px solid grey;
+}
+
+.list li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+.main-nav{
+    width: 1500px;
+    height: 130px;
+    /* background-color: aqua; */
+}
+
+.main-nav>nav{
+    width: 100%;
+}
+
+.nav1{
+    height: 65%;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: antiquewhite;   */
+}
+
+.nav1>div{
+    height: 100%;
+    width: 33%;
+}
+
+.lenskart-logo{
+    display: flex;
+    /* background-color: white; */
+}
+
+.lenskart-logo div{
+    width: 50%;
+    height: 100%;
+}
+
+.dial a img{
+    padding-top: 10%;
+    padding-left: 55%;
+}
+
+
+
+
+
+#search{
+    position: relative;
+    top: 18px;
+    text-indent: 10px;
+    height: 30px;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+
+
+.activity{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    /* background-color: antiquewhite; */
+}
+
+
+
+.activity div a{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.nav2{
+    height: 35%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(236, 230, 224);
+}
+
+.navlist{
+    height: 60%;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 15px;
+    padding-right: 15px;
+    /* background-color: aqua; */
+}
+
+
+.navlist div{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.navlist div a{
+    display: block;
+    height: 100%;
+    color: rgb(124, 117, 117);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.navlist div a:hover{
+    text-decoration: underline 1px solid grey;
+}
+
+
+
+
+
+#main-body{
+    width: 1500px;
+}
+
+.body1{
+    width: 100%;
+    height: 570px;
+    display: flex;
+    margin: auto;
+    background-color: rgb(12, 2, 68);
+}
+
+.body1 .container{
+    /* width: 1000px; */
+    height: 450px;
+    padding: 0px 40px;
+    /* background-color: wheat; */
+}
+
+.body1 .container>h1{
+    text-align: center;
+    color: white;
+    font-size: 26px;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+
+
+.body1 .container .text_video{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    /* background-color: aqua; */
+    
+}
+
+.container .text_video div{
+    width: 50%;
+    
+}
+
+
+
+.text_video .text h1{
+    font-size: 60px;
+    font-weight: 50;
+    color: white;
+    padding-bottom: 15px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+
+.text_video .text pre{
+    white-space: pre-line;
+    font-size: 24px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+
+
+
+.body2{
+    /* width: 100%; */
+    height: 450px;
+    display: grid;
+    place-content: center;
+    background-color: rgb(201, 243, 243);
+}
+
+.body2 .vision{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: rgb(6, 6, 41);
+    /* background-color: aqua; */
+}
+
+.vision>h1{
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: 100;
+}
+
+.vision>span{
+    font-size: 40px;
+    font-weight: 100;
+}
+.vision>div{
+    font-weight: 100;
+    font-size: 100px;
+}
+
+
+
+
+
+
+.body3{
+    width: 100%;
+    height: 850px;
+    background-color: white;
+}
+
+.body3 .focus{
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(30, 30, 85);
+    width: 100%;
+    padding-bottom: 10px;
+    /* background-color: aqua; */
+}
+
+.body3 .focus h1{
+    text-align: center;
+    font-size: 40px ;
+    font-weight: 100;
+}
+
+.focus div{
+    font-size: 50px;
+}
+
+.body3 .focus pre{
+    margin: 0 auto;
+    font-size: 24px;
+    padding-top: 10px;
+    white-space: pre-line;
+    width: 60%;
+}
+
+
+
+
+
+
+
+/* Slide show */
+
+.slider{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 590px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.slide{
+    transition: 2s;
+}
+.slides input{
+    display: none;
+}
+
+.caption{
+    height: 195px;
+    margin-top: -10px;
+    padding: 20px 30px;
+    background-color: rgb(188, 226, 226);
+}
+.caption h1{
+    font-size: 32px;
+}
+.caption p{
+    font-size: 22px;
+}
+
+.manual-btn{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+    border: 3px solid black;
+    transition: 1s;
+}
+
+.navigation-manual{
+    position: absolute;
+    left: 45%;
+    margin-top: 530px;
+    display: flex;
+}
+
+.manual-btn:hover{
+    background-color: rgb(55, 104, 104);
+}
+
+
+#radio1:checked ~ .slide{
+    margin-top: 0;
+}
+
+#radio2:checked ~ .lens{
+    margin-top: -49%;
+}
+
+#radio3:checked ~ .lens{
+    margin-top: -98%;
+}
+#radio4:checked ~ .lens{
+    margin-top: -147%;
+}
+
+
+
+
+.body4{
+    text-align: center;
+    height: 750px;
+    background-color: rgb(241, 241, 241);
+}
+
+.body4>h1{
+    font-size: 40px;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+.body4>pre{
+    font-size: 20px;
+    font-weight: 100;
+    white-space: pre-line;
+    padding-bottom: 15px;
+    /* background-color: azure; */
+}
+
+
+.stores{
+    width: 100%;
+    height: 550px;
+    color: grey;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: antiquewhite; */
+}
+
+.stores>div{
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 2px 5px 13px black;
+    background-color: white;
+}
+
+
+.span{
+    display: flex;
+    margin:  auto;
+    padding-top: 10px;
+    font-size: 20px;
+    width: 80%;
+}
+
+
+
+
+
+.body5{
+    height: 1200px;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.body5>h1{
+    font-size: 60px;
+    font-weight: 100;
+    padding-bottom: 20px;
+}
+
+.body5>pre{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 100;
+    white-space: pre-line;
+    padding-bottom: 50px;
+}
+
+.body5 .content{
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    background-color: white;
+}
+
+.content>div{
+    height: 50%;
+}
+
+.first{
+    display: flex;
+}
+
+.first>div{
+    width: 50%;
+}
+
+
+
+.text1>div{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-left: -30%;
+    margin-top: -20%;
+    height: 40%;
+    width: 60%;
+    /* background-color: antiquewhite; */
+}
+
+.text1>div>h1{
+    text-align: left;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+.text1>div>p{
+    text-align: left;
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+.second{
+    display: flex;
+}
+
+.second>div{
+    width: 50%;
+}
+
+.text2>div{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-left: -30%;
+    margin-top: -20%;
+    height: 40%;
+    width: 60%;
+    /* background-color: antiquewhite; */
+}
+
+.text2>div>h1{
+    text-align: left;
+    font-size: 36px;
+    padding-bottom: 20px;
+}
+
+.text2>div>p{
+    text-align: left;
+    font-size: 22px;
+}
